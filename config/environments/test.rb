@@ -34,4 +34,8 @@ Raffler::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+
+  #Ember variant to locate ember's assets
+  config.ember.variant = :development
 end
